@@ -1,0 +1,178 @@
+:root {
+    --greenlily: #def3f3;
+    --black: #000000;
+    --Back: #ffff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: Montserrat,  sans-serif;
+    color: var(--black);
+  }
+
+  body {
+    background: #f6ead4;
+    margin: 30px 50px;
+    line-height: 1.4;
+  }
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+  }
+
+  
+  .btn {
+    background: var(--black);
+    color: var(--Back);
+    padding: 0.6rem 1.3rem;
+    text-decoration: nh1e;
+    border: 0;
+    font-size: 1rem;
+  }
+
+
+  
+  img {
+    max-width: 100%;
+  }
+  
+  
+  
+
+  .main-nav ul {
+    display: grid;
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .main-nav a {
+    background: var(--greenlily);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+  }
+  
+  .main-nav a:hover {
+    background: var(--black);
+    color: var(--Back);
+  }
+  
+
+  
+.info {
+    background: var(--greenlily);
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15rem;
+  }
+
+
+
+
+
+
+    
+.grid {
+  display: grid;
+  width: 114em;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+}
+
+.grid-item {
+  background-color: #def3f3;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grid-item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 3rem;
+}
+
+.card-header {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: # 000000;
+  margin-bottom: 2.5rem;
+}
+
+.card-btn {
+   display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+  background-color: #f6ead4;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+
+  
+footer {
+    margin-top: 0rem;
+    background: var(--black);
+    color: var(--Back);
+    text-align: left;
+    padding: 0rem;
+  
+  
+  }
